@@ -1,0 +1,66 @@
+ /* #heading{              //////  Using id in css
+    color:blue;
+    text-decoration: "line-through";
+    background-color: yellow;
+  }
+#heading2{
+    color:blue;
+    text-decoration: "line-through";
+    background-color: yellow;
+
+ 
+.heading{
+    color:blue;
+    text-decoration: "line-through";
+    background-color: yellow;
+  }
+body{
+    background-color: pink;
+}
+button{
+    background-color: blue;
+    color: white;
+
+}
+#myid{
+    background-color:green ;
+}
+p{
+  color:red;
+}
+#box{
+  height : 100px;
+  width:100px;
+  border:1px  solid black;
+  padding: 23px;
+  margin:5px;
+  text-align: center;
+  background-color: skyblue;
+}}
+.box{
+  
+  border:12px solid black;
+}
+.txt{
+  background-color: red;
+  color:blue;
+  height: 102px;
+  width: 102px;
+}
+*/
+div{
+  height:100px;
+  width: 100px;
+  border:1px solid blue;
+  background-color: red;
+}
+  
+
+  .dark {
+    background-color:black;
+    color: white;
+  }
+  .light {
+    background-color:purple;
+    color:black;
+  }

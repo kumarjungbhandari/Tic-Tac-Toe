@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color:white;
+    height:5rem;
+    line-height:5rem;
+    display:block;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius:50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.choice:hover{
+    /* opacity: 0.5;*/  /*Gives a blur*/   
+    cursor: pointer; /*Gives a pointer*/
+    background-color:black;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;  /*helps to fit the image*/ /**/
+    border-radius: 50%;
+}
+.choices{
+    display: flex; /* helps to put in same line*/
+    justify-content: center; /*puts the content in center*/
+    align-items: center;
+    gap:3rem;
+    margin-top: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user-score,#comp-score{
+   
+   font-size: 4rem;
+  
+   color: rgb(7, 0, 0);
+   margin-top: 5rem;
+   display: inline;
+   padding: 0.5rem;
+}
+#msg{
+    background-color: black;
+color: white;
+font-size: 2rem;
+display: inline;
+padding: 1rem;
+border-radius: 2rem;
+}
+.msg-container{
+    margin-top: 2rem;
+  
+}
+body{
+    background-image:url('./images/new.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#sc{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;                
+}
